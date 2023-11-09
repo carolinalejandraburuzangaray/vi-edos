@@ -131,8 +131,9 @@ p {
 }
 
 .img-fluid {
-  max-width: 211%;
+  max-width: 85%;
   height: auto;
+  text-align: center;
 }
 
 .card {
