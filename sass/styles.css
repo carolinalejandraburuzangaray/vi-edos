@@ -212,7 +212,11 @@ transition: color .15s ease-in-out,background-color .15s ease-in-out,border-colo
   text-align: center;
   padding: 10px 0;
 }
-
+img-fluid {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
 .header h1 {
   font-size: 55px;
   margin: 0;
