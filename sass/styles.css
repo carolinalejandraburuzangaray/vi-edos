@@ -48,8 +48,8 @@ img {
   text-align: center; 
 }
 .card-img-top {
-  background-color: rgba(240, 234, 234, 0.733); /* Fondo blanco para el contenido */
-  padding: 75px;
+  background-color: rgb(240, 234, 234); /* Fondo blanco para el contenido */
+  padding: 14px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Agrega una sombra */
   margin: 55px auto; /* Centra el contenido en la página */
   text-align: center;
@@ -109,7 +109,7 @@ body {
   font-family: "Lucida Sans", sans-serif;
   text-align: center; /* Centrar el contenido principal */
   padding-top: 20px; /* Agrega un espacio en la parte superior */
-  background-color: rgba(51, 49, 49, 0.432);
+  background-color: rgba(158, 155, 155, 0.432);
 } 
 
 
@@ -130,7 +130,10 @@ p {
   margin-bottom: 20px;
 }
 
-
+.img-fluid {
+  max-width: 210%;
+  height: auto;
+}
 
 .card {
   border: 1px solid #e701014b; /* Agrega un borde a las tarjetas */
@@ -164,7 +167,7 @@ transition: color .15s ease-in-out,background-color .15s ease-in-out,border-colo
 }
 .header h1 {
   text-align: center;
-  background-color: rgb(90, 2, 2);
+  background-color: rgb(117, 2, 2);
   color: white;
   padding: 15px;
   margin-bottom: 10px;
@@ -182,12 +185,12 @@ transition: color .15s ease-in-out,background-color .15s ease-in-out,border-colo
   color: rgb(5, 4, 4);
 }
 .card-img-top {
-  width: 80%;
+  width: 90%;
   height: auto;
   text-align: center;
 }
 .footer {
-  background-color: rgba(20, 12, 12, 0.877);
+  background-color: rgba(87, 84, 84, 0.877);
   color: rgba(248, 246, 246, 0.882);
   text-align: center;
   font-size: 16px;
@@ -220,7 +223,7 @@ img-fluid {
 .header h1 {
   font-size: 55px;
   margin: 0;
-  color: rgb(214, 210, 210);
+  color: rgb(240, 230, 230);
 }
 
 /* Estilos para la tarjeta principal */
